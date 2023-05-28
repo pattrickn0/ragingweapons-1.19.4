@@ -1,0 +1,10 @@
+{
+  "item.ragingweapons.titanium_raw": "Titanium Raw",
+  "item.ragingweapons.titanium": "Titanium",
+
+  "block.ragingweapons.titanium_ore": "Titanium Ore",
+  "block.ragingweapons.deepslate_titanium_ore": "Deepslate Titanium Ore",
+  "block.ragingweapons.titanium_block": "Titanium Block",
+
+  "itemGroup.ragingweapons.raging_weapons_group": "Raging Weapons"
+}
