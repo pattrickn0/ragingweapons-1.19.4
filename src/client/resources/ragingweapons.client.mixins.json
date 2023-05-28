@@ -3,7 +3,7 @@
 	"package": "ragingweapons.mixin.client",
 	"compatibilityLevel": "JAVA_17",
 	"client": [
-		"ExampleClientMixin"
+		"RagingWeaponsMixins"
 	],
 	"injectors": {
 		"defaultRequire": 1
