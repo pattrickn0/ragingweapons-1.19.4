@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 280,
+  "experience": 0.8,
+  "ingredient": {
+    "item": "ragingweapons:titanium_ore"
+  },
+  "result": "ragingweapons:titanium_ingot"
+}

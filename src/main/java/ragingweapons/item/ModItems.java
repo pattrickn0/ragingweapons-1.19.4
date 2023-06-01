@@ -14,8 +14,12 @@ public class ModItems {
     public static final Item TITANIUM_RAW = registerItem("titanium_raw",
             new Item(new FabricItemSettings()));
 
-    public static final Item TITANIUM = registerItem("titanium",
+    public static final Item TITANIUM = registerItem("titanium_ingot",
             new Item(new FabricItemSettings()));
+
+    public static final Item TITANIUM_NUGGET = registerItem("titanium_nugget",
+            new Item(new FabricItemSettings()));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(RagingWeapons.MOD_ID, name), item);
@@ -24,9 +28,11 @@ public class ModItems {
     public static void addItemsToItemGroup() {
         addToItemGroup(ItemGroups.INGREDIENTS, TITANIUM);
         addToItemGroup(ItemGroups.INGREDIENTS, TITANIUM_RAW);
+        addToItemGroup(ItemGroups.INGREDIENTS, TITANIUM_NUGGET);
 
         addToItemGroup(ModItemGroup.RagingGroup, TITANIUM);
         addToItemGroup(ModItemGroup.RagingGroup, TITANIUM_RAW);
+        addToItemGroup(ModItemGroup.RagingGroup, TITANIUM_NUGGET);
 
     }
 

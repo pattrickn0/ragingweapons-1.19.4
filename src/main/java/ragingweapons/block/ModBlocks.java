@@ -24,6 +24,9 @@ public class ModBlocks {
     public static final Block TITANIUM_BLOCK = registerBlock("titanium_block",
             new Block(FabricBlockSettings.of(Material.METAL).hardness(5).resistance(8).requiresTool()), ModItemGroup.RagingGroup);
 
+    public static final Block FORBIDDEN_FLOWER = registerBlock(("forbidden_flower"),
+            new Block(FabricBlockSettings.of(Material.PLANT).strength(0)), ModItemGroup.RagingGroup);
+
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
