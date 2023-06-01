@@ -14,9 +14,9 @@ public class RagingWeapons implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        ModBlocks.registerModBlocks();
         ModItemGroup.registerItemGroups();
         ModItems.registerModItems();
+        ModBlocks.registerModBlocks();
         LOGGER.info("Hello Fabric world!");
     }
 }
