@@ -1,7 +1,7 @@
 {
   "type": "minecraft:blasting",
   "category": "misc",
-  "cookingtime": 140,
+  "cookingtime": 150,
   "experience": 0.8,
   "ingredient": {
     "item": "ragingweapons:titanium_raw"
