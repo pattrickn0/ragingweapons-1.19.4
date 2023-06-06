@@ -1,17 +1,17 @@
 {
 	"schemaVersion": 1,
 	"id": "ragingweapons",
-	"version": "${version}",
+	"version": "0.3.1",
 	"name": "ragingweapons",
-	"description": "No momento o mod adiciona titanio",
+	"description": "Adiciona minério, blocos e ferramentas de titânio.",
 	"authors": [
-		"Me!"
+		"Pattrick"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/pattrickn0/ragingweapons-1.19.4"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/ragingweapons/icon.png",
 	"environment": "*",
 	"entrypoints": {
