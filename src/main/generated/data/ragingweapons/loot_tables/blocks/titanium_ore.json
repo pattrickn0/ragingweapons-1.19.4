@@ -2,7 +2,6 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "rolls": 1.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
@@ -37,17 +36,14 @@
                 },
                 {
                   "function": "minecraft:explosion_decay"
-                },
-                {
-                  "function": "minecraft:set_count",
-                  "count": 1
                 }
               ],
               "name": "ragingweapons:titanium_raw"
             }
           ]
         }
-      ]
+      ],
+      "rolls": 1.0
     }
   ]
 }

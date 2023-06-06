@@ -2,9 +2,7 @@ package ragingweapons.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemGroups;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -13,12 +11,20 @@ import ragingweapons.RagingWeapons;
 public class ModItems {
     public static final Item TITANIUM_RAW = registerItem("titanium_raw",
             new Item(new FabricItemSettings()));
-
     public static final Item TITANIUM = registerItem("titanium_ingot",
             new Item(new FabricItemSettings()));
-
     public static final Item TITANIUM_NUGGET = registerItem("titanium_nugget",
             new Item(new FabricItemSettings()));
+
+    public static final Item TITANIUM_SWORD = registerItem("titanium_sword",
+            new SwordItem(ModToolMaterials.TITANIUM,-1, -2.4f, new FabricItemSettings().maxCount(1)));
+
+    public static final Item TITANIUM_PICKAXE = registerItem("titanium_pickaxe",
+            new PickaxeItem(ModToolMaterials.TITANIUM,-3, -2.8f, new FabricItemSettings().maxCount(1)));
+
+
+
+
 
 
     private static Item registerItem(String name, Item item) {
@@ -29,10 +35,15 @@ public class ModItems {
         addToItemGroup(ItemGroups.INGREDIENTS, TITANIUM);
         addToItemGroup(ItemGroups.INGREDIENTS, TITANIUM_RAW);
         addToItemGroup(ItemGroups.INGREDIENTS, TITANIUM_NUGGET);
+        addToItemGroup(ItemGroups.COMBAT, TITANIUM_SWORD);
+        addToItemGroup(ItemGroups.TOOLS, TITANIUM_PICKAXE);
 
         addToItemGroup(ModItemGroup.RagingGroup, TITANIUM);
         addToItemGroup(ModItemGroup.RagingGroup, TITANIUM_RAW);
         addToItemGroup(ModItemGroup.RagingGroup, TITANIUM_NUGGET);
+        addToItemGroup(ModItemGroup.RagingGroup, TITANIUM_SWORD);
+        addToItemGroup(ModItemGroup.RagingGroup, TITANIUM_PICKAXE);
+
 
     }
 

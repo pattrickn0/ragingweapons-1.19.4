@@ -18,6 +18,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.TITANIUM_BLOCK);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.TITANIUM_ORE);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.DEEPSLATE_TITANIUM_ORE);
+
     }
 
     @Override
@@ -25,5 +26,9 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.TITANIUM, Models.GENERATED);
         itemModelGenerator.register(ModItems.TITANIUM_RAW, Models.GENERATED);
         itemModelGenerator.register(ModItems.TITANIUM_NUGGET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TITANIUM_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TITANIUM_PICKAXE, Models.HANDHELD);
+
+
     }
 }

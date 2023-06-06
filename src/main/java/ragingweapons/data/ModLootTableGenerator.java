@@ -12,8 +12,8 @@ public class ModLootTableGenerator extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
-        oreDrops(ModBlocks.TITANIUM_ORE, ModItems.TITANIUM_RAW);
-        oreDrops(ModBlocks.DEEPSLATE_TITANIUM_ORE, ModItems.TITANIUM_RAW);
+        addDrop(ModBlocks.TITANIUM_ORE, oreDrops(ModBlocks.TITANIUM_ORE, ModItems.TITANIUM_RAW));
+        addDrop(ModBlocks.DEEPSLATE_TITANIUM_ORE, oreDrops(ModBlocks.DEEPSLATE_TITANIUM_ORE, ModItems.TITANIUM_RAW));
 
         addDrop(ModBlocks.TITANIUM_BLOCK);
     }

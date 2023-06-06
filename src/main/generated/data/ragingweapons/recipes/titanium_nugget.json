@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
+    "X": {
       "item": "ragingweapons:titanium_nugget"
     }
   },
   "pattern": [
-    "###",
-    "###",
-    "###"
+    "XXX",
+    "XXX",
+    "XXX"
   ],
   "result": {
     "item": "ragingweapons:titanium_ingot"
