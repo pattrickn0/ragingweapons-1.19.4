@@ -7,6 +7,7 @@ import org.slf4j.LoggerFactory;
 import ragingweapons.block.ModBlocks;
 import ragingweapons.item.ModItemGroup;
 import ragingweapons.item.ModItems;
+import ragingweapons.world.gen.ModWorldGeneration;
 
 public class RagingWeapons implements ModInitializer {
     public static final String MOD_ID = "ragingweapons";
@@ -17,6 +18,6 @@ public class RagingWeapons implements ModInitializer {
         ModItemGroup.registerItemGroups();
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
-        LOGGER.info("Hello Fabric world!");
+        ModWorldGeneration.generateModWorldGen();
     }
 }
