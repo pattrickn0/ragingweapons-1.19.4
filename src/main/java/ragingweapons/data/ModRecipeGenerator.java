@@ -19,9 +19,9 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
     @Override
     public void generate(Consumer<RecipeJsonProvider> exporter) {
         offerSmelting(exporter, List.of(ModBlocks.TITANIUM_ORE, ModBlocks.DEEPSLATE_TITANIUM_ORE, ModItems.TITANIUM_RAW), RecipeCategory.MISC, ModItems.TITANIUM,
-                0.8f, 300, "titanium");
+                0.8f, 280, "titanium");
         offerBlasting(exporter, List.of(ModBlocks.TITANIUM_ORE, ModBlocks.DEEPSLATE_TITANIUM_ORE, ModItems.TITANIUM_RAW), RecipeCategory.MISC, ModItems.TITANIUM,
-                0.8f, 150, "titanium");
+                0.8f, 120, "titanium");
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.TITANIUM, RecipeCategory.DECORATIONS, ModBlocks.TITANIUM_BLOCK);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.TITANIUM)
@@ -41,6 +41,15 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(FabricRecipeProvider.hasItem(ModItems.TITANIUM),
                         FabricRecipeProvider.conditionsFromItem(ModItems.TITANIUM))
                 .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.TITANIUM_RAW)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.TITANIUM, 9)
+                .pattern("   ")
+                .pattern(" X ")
+                .pattern("   ")
+                .input('X', ModBlocks.TITANIUM_BLOCK)
+                .criterion(FabricRecipeProvider.hasItem(ModBlocks.TITANIUM_BLOCK),
+                        FabricRecipeProvider.conditionsFromItem(ModBlocks.TITANIUM_BLOCK))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.TITANIUM2)));
         //TOOLS
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.TITANIUM_SWORD, 1)
                 .pattern(" X ")

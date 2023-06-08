@@ -1,7 +1,7 @@
 {
   "type": "minecraft:blasting",
   "category": "misc",
-  "cookingtime": 150,
+  "cookingtime": 120,
   "experience": 0.8,
   "group": "titanium",
   "ingredient": {

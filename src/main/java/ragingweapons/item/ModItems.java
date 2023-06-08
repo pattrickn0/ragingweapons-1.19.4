@@ -41,6 +41,9 @@ public class ModItems {
     public static final Item TITANIUM_HELMET = registerItem("titanium_helmet",
             new TitaniumArmorItem(ModArmorMaterials.TITANIUM, ArmorItem.Type.HELMET, new FabricItemSettings().maxCount(1)));
 
+    public static final Item TITANIUM2 = registerItem("titanium2",
+            new Item(new FabricItemSettings()));
+
 
 
     private static Item registerItem(String name, Item item) {
