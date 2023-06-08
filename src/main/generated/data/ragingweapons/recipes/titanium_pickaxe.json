@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "ragingweapons:titanium_ingot"
+    }
+  },
+  "pattern": [
+    "XXX",
+    " A ",
+    " A "
+  ],
+  "result": {
+    "item": "ragingweapons:titanium_pickaxe"
+  },
+  "show_notification": true
+}
