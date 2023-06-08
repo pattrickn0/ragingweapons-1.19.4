@@ -31,6 +31,15 @@ public class ModItems {
     public static final Item TITANIUM_HOE = registerItem("titanium_hoe",
             new HoeItem(ModToolMaterials.TITANIUM,-7, -1f, new FabricItemSettings().maxCount(1)));
 
+    public static final Item TITANIUM_BOOTS = registerItem("titanium_boots",
+            new ArmorItem(ModArmorMaterials.TITANIUM, ArmorItem.Type.BOOTS, new FabricItemSettings().maxCount(1)));
+    public static final Item TITANIUM_LEGGINGS = registerItem("titanium_leggings",
+            new ArmorItem(ModArmorMaterials.TITANIUM, ArmorItem.Type.LEGGINGS, new FabricItemSettings().maxCount(1)));
+    public static final Item TITANIUM_CHESTPLATE = registerItem("titanium_chestplate",
+            new ArmorItem(ModArmorMaterials.TITANIUM, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().maxCount(1)));
+    public static final Item TITANIUM_HELMET = registerItem("titanium_helmet",
+            new ArmorItem(ModArmorMaterials.TITANIUM, ArmorItem.Type.HELMET, new FabricItemSettings().maxCount(1)));
+
 
 
     private static Item registerItem(String name, Item item) {
@@ -41,20 +50,32 @@ public class ModItems {
         addToItemGroup(ItemGroups.INGREDIENTS, TITANIUM);
         addToItemGroup(ItemGroups.INGREDIENTS, TITANIUM_RAW);
         addToItemGroup(ItemGroups.INGREDIENTS, TITANIUM_NUGGET);
+
         addToItemGroup(ItemGroups.COMBAT, TITANIUM_SWORD);
         addToItemGroup(ItemGroups.TOOLS, TITANIUM_AXE);
         addToItemGroup(ItemGroups.TOOLS, TITANIUM_PICKAXE);
         addToItemGroup(ItemGroups.TOOLS, TITANIUM_SHOVEL);
         addToItemGroup(ItemGroups.TOOLS, TITANIUM_HOE);
 
+        addToItemGroup(ItemGroups.COMBAT, TITANIUM_BOOTS);
+        addToItemGroup(ItemGroups.COMBAT, TITANIUM_LEGGINGS);
+        addToItemGroup(ItemGroups.COMBAT, TITANIUM_CHESTPLATE);
+        addToItemGroup(ItemGroups.COMBAT, TITANIUM_HELMET);
+
         addToItemGroup(ModItemGroup.RagingGroup, TITANIUM);
         addToItemGroup(ModItemGroup.RagingGroup, TITANIUM_RAW);
         addToItemGroup(ModItemGroup.RagingGroup, TITANIUM_NUGGET);
+
         addToItemGroup(ModItemGroup.RagingGroup, TITANIUM_SWORD);
         addToItemGroup(ModItemGroup.RagingGroup, TITANIUM_AXE);
         addToItemGroup(ModItemGroup.RagingGroup, TITANIUM_PICKAXE);
         addToItemGroup(ModItemGroup.RagingGroup, TITANIUM_SHOVEL);
         addToItemGroup(ModItemGroup.RagingGroup, TITANIUM_HOE);
+
+        addToItemGroup(ModItemGroup.RagingGroup, TITANIUM_BOOTS);
+        addToItemGroup(ModItemGroup.RagingGroup, TITANIUM_LEGGINGS);
+        addToItemGroup(ModItemGroup.RagingGroup, TITANIUM_CHESTPLATE);
+        addToItemGroup(ModItemGroup.RagingGroup, TITANIUM_HELMET);
 
 
     }

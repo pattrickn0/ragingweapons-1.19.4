@@ -1,3 +1,5 @@
-// 1.19.4	2023-06-06T22:56:32.2277346	ragingweapons/ragingweapons
-48dd8dc8605c39dac932872485ee0259a055381a data\ragingweapons\worldgen\placed_feature\titanium_ore_placed.json
-02e85a4c165534d4a47a569b18bf73da41d12564 data\ragingweapons\worldgen\configured_feature\titanium_ore.json
+// 1.19.4	2023-06-08T12:21:35.9586929	ragingweapons/ragingweapons
+fce41be552882bc66ac74e73883b52616639e210 data\ragingweapons\worldgen\placed_feature\titanium_ore_placed.json
+a00f4625802d32baaf8f2d31ee335fe6fadb900e data\ragingweapons\worldgen\placed_feature\lucky_titanium_ore_placed.json
+ff8fe8372e1a4d9c39068d90b9335f8a0a21dd5a data\ragingweapons\worldgen\configured_feature\titanium_ore.json
+4c67ed685b475050990df311278152556d0486e9 data\ragingweapons\worldgen\configured_feature\lucky_titanium_ore.json
