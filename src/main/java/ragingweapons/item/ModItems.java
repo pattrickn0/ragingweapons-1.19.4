@@ -7,6 +7,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import ragingweapons.RagingWeapons;
+import ragingweapons.item.custom.TitaniumArmorItem;
 
 public class ModItems {
     public static final Item TITANIUM_RAW = registerItem("titanium_raw",
@@ -32,13 +33,13 @@ public class ModItems {
             new HoeItem(ModToolMaterials.TITANIUM,-7, -1f, new FabricItemSettings().maxCount(1)));
 
     public static final Item TITANIUM_BOOTS = registerItem("titanium_boots",
-            new ArmorItem(ModArmorMaterials.TITANIUM, ArmorItem.Type.BOOTS, new FabricItemSettings().maxCount(1)));
+            new TitaniumArmorItem(ModArmorMaterials.TITANIUM, ArmorItem.Type.BOOTS, new FabricItemSettings().maxCount(1)));
     public static final Item TITANIUM_LEGGINGS = registerItem("titanium_leggings",
-            new ArmorItem(ModArmorMaterials.TITANIUM, ArmorItem.Type.LEGGINGS, new FabricItemSettings().maxCount(1)));
+            new TitaniumArmorItem(ModArmorMaterials.TITANIUM, ArmorItem.Type.LEGGINGS, new FabricItemSettings().maxCount(1)));
     public static final Item TITANIUM_CHESTPLATE = registerItem("titanium_chestplate",
-            new ArmorItem(ModArmorMaterials.TITANIUM, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().maxCount(1)));
+            new TitaniumArmorItem(ModArmorMaterials.TITANIUM, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().maxCount(1)));
     public static final Item TITANIUM_HELMET = registerItem("titanium_helmet",
-            new ArmorItem(ModArmorMaterials.TITANIUM, ArmorItem.Type.HELMET, new FabricItemSettings().maxCount(1)));
+            new TitaniumArmorItem(ModArmorMaterials.TITANIUM, ArmorItem.Type.HELMET, new FabricItemSettings().maxCount(1)));
 
 
 

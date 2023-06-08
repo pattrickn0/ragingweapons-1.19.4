@@ -17,7 +17,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
         map.put(ArmorItem.Type.LEGGINGS, 5);
         map.put(ArmorItem.Type.CHESTPLATE, 7);
         map.put(ArmorItem.Type.HELMET, 2);
-    }), 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 1.0F, 0.0F, () -> {
+    }), 15, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 1.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{ModItems.TITANIUM});
     });
 

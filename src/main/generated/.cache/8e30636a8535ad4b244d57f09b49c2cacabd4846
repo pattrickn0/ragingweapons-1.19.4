@@ -1,8 +1,8 @@
-// 1.19.4	2023-06-08T12:21:35.9620534	ragingweapons/Model Definitions
-7658b2f094afe07eb8dc58343331ae2bf2b1a2c7 assets\ragingweapons\models\item\titanium_hoe.json
+// 1.19.4	2023-06-08T12:53:19.5702804	ragingweapons/Model Definitions
 051b0b9ef98b8767dee1f8e96b7fd6ab632aba59 assets\ragingweapons\models\item\titanium_axe.json
-8fcfdddf640cf4791c65ee77c3787897397962df assets\ragingweapons\models\block\deepslate_titanium_ore.json
+7658b2f094afe07eb8dc58343331ae2bf2b1a2c7 assets\ragingweapons\models\item\titanium_hoe.json
 0f3dbe1d651d44c7973d06c786e913223de090d5 assets\ragingweapons\models\block\titanium_block.json
+8fcfdddf640cf4791c65ee77c3787897397962df assets\ragingweapons\models\block\deepslate_titanium_ore.json
 1096809760c6efa3923f9437eeaead0e6e8597e5 assets\ragingweapons\models\item\titanium_leggings.json
 e98fd8add3a31728f4472704a52df5f77bb47123 assets\ragingweapons\models\item\titanium_ore.json
 bf44b53f69098b5e1244f65f0ec2a10ac528fc4b assets\ragingweapons\blockstates\deepslate_titanium_ore.json
